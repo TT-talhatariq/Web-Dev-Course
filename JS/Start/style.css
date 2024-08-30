@@ -1,0 +1,13 @@
+body {
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background-color: rgba(34, 106, 241, 0.791);
+}
+
+/*
+
+*/

@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-section {
+  height: 100vh;
+  background-image: url("images/bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.text-container {
+  color: white;
+  padding-top: 70px;
+  padding-left: 40px;
+}
+
+.large-text {
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.black-box {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+.black-box h2 {
+  font-size: 72px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.black-box h2 span {
+  font-weight: bold;
+  font-size: 96px;
+}
+
+.work {
+  display: flex;
+  gap: 40px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  justify-content: space-between;
+  margin: 40px 10px;
+}
+
+.service {
+  width: 400px;
+  padding: 20px;
+  box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+}
+
+.image img {
+  width: 400px;
+  height: 300px;
+}
+
+.contact {
+  background-color: gainsboro;
+}
+.about {
+  background-color: skyblue;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.contact,
+.about {
+  height: 200px;
+  padding: 32px;
+}
+
+.contact h2,
+.about h2 {
+  font-size: 64px;
+}
+
+.contact p,
+.about p {
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}

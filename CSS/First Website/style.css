@@ -1,0 +1,74 @@
+* {
+  color: green;
+  font-size: 20px;
+}
+.red-heading,
+.skills-heading {
+  color: red;
+}
+
+#green-title {
+  color: #e7f617;
+  background-color: black;
+  font-size: 30px;
+
+  text-align: center;
+
+  padding: 20px;
+  border-radius: 40px;
+
+  box-shadow: 0px 0px 13px 1px rgba(0, 0, 0, 0.75);
+}
+
+input[type="text"] {
+  background-color: yellow;
+}
+
+.practice {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: lighter;
+  line-height: 1.8;
+  letter-spacing: 3px;
+  word-spacing: 20px;
+
+  text-transform: capitalize;
+
+  border: 10px solid red;
+  border-radius: 30px;
+
+  box-shadow: 0px 0px 13px 1px rgba(0, 0, 0, 0.75);
+
+  margin: 20px;
+
+  padding: 100px 40px;
+}
+
+a {
+  background-color: rgb(213, 213, 26);
+}
+
+.profile-img {
+  border-radius: 50%;
+  border: 5px double red;
+  display: block;
+  box-shadow: 0px 0px 13px 1px rgba(0, 0, 0, 0.75);
+
+  height: 400px;
+  width: 400px;
+}
+
+.profile-img:hover {
+  border: 15px double red;
+}
+
+.resume-btn {
+  background-color: white;
+  color: black;
+}
+
+.resume-btn:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}

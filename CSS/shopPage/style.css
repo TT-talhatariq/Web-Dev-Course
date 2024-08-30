@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.shop-container {
+  background-color: lightblue;
+  height: 100vh;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card {
+  background-color: lightcyan;
+  margin: 10px;
+  padding: 40px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+}
+
+.card h4 {
+  border-top: 2px solid black;
+  padding-top: 30px;
+}
+
+.card button {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+}
+
+.card button:hover {
+  color: black;
+  background: white;
+  border: 1px solid black;
+}

@@ -1,0 +1,18 @@
+div {
+  background-color: aqua;
+
+  display: flex;
+
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+
+  height: 100vh;
+}
+
+h1 {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+}

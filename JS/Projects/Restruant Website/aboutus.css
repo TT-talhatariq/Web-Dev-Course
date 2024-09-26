@@ -1,0 +1,90 @@
+.story {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.about-us-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-us-box .image img {
+  width: 600px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  padding: 20px 50px;
+  animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  width: 31%;
+}
+.content input,
+textarea {
+  width: 400px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: 1px solid gray;
+}
+
+textarea {
+  height: 100px;
+}
+.content h1 {
+  font-family: "Roboto";
+  font-size: 40px;
+}
+.content button {
+  background-color: #551a8b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+}
+
+.content button:hover {
+  transform: scale(0.95);
+  transition: all 0.3s;
+}
+
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .story p {
+    padding: 20px;
+    text-align: center;
+  }
+  .about-us-box {
+    flex-direction: column;
+    margin: 20px;
+  }
+  .about-us-box .image {
+    width: 100%;
+    padding: 40px;
+    margin: 40px;
+  }
+  .about-us-box .image img {
+    width: 100%;
+  }
+  .about-us-box .content {
+    width: 100%;
+  }
+}

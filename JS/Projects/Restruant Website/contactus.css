@@ -56,3 +56,19 @@ textarea {
     opacity: 1;
   }
 }
+
+@media all and (max-width: 500px) {
+  .contact-us-box {
+    flex-direction: column;
+    padding: 40px 10px;
+    gap: 20px;
+  }
+  .contact-us-box .image img {
+    width: 350px;
+  }
+  .content input,
+  .content,
+  textarea {
+    width: 90%;
+  }
+}
